@@ -1,2 +1,2 @@
-# Sparky
+# Sparkle
 Joyfully distributed. 
