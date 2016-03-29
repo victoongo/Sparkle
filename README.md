@@ -17,16 +17,20 @@ tar zxf spark-1.5.2-bin-hadoop2.6.tgz
 export PATH="/Users/un/Applications/spark-1.5.0-bin-hadoop2.6/bin:$PATH"
 
 export SPARK_HOME=/Users/un/Applications/spark-1.5.0-bin-hadoop2.6
-#export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+# export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
 export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/build:$PYTHONPATH
 ```
 
 ### on Ubuntu, add to .bashrc (or .profile)
+<<<<<<< HEAD
 ```
+=======
+'''
+>>>>>>> c504f2fb8c92f42762f22b01cd6000eca4c6c6af
 export PATH="/home/un/spark-1.5.2-bin-hadoop2.6/bin:$PATH"
 
 export SPARK_HOME=/home/un/spark-1.5.2-bin-hadoop2.6
-#export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+# export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
 export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/build:$PYTHONPATH
 ```
 
